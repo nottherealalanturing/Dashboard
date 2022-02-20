@@ -4,8 +4,107 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DASHBOARD</title>
-    <link rel="stylesheet" href="./assets/styles/normalize.css" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="dashboard">
+      <section class="sidebar pd-10">
+        <a href="/" class="logo pd-10 mb-10">
+          <img src="./assets/icons/biohazard.svg" alt="logo" />
+          <h3>DASHBOARD</h3>
+        </a>
+        <ul class="top-sidebar-buttons pd-10 mb-10">
+          <li>
+            <a class="sb-li" href="/home"
+              ><img src="./assets/icons/home.svg" alt="home" /> Home</a
+            >
+          </li>
+          <li>
+            <a class="sb-li" href="/profile"
+              ><img src="./assets/icons/profile.svg" alt="profile" /> Profile</a
+            >
+          </li>
+          <li>
+            <a class="sb-li" href="/messages"
+              ><img src="./assets/icons/messages.svg" alt="messages" />
+              Messages</a
+            >
+          </li>
+          <li>
+            <a class="sb-li" href="/history"
+              ><img src="./assets/icons/tasks.svg" alt="history" />Tasks</a
+            >
+          </li>
+          <li>
+            <a class="sb-li" href="/communities"
+              ><img
+                src="./assets/icons/communities.svg"
+                alt="communities"
+              />Community</a
+            >
+          </li>
+        </ul>
+        <ul class="btm-sidebar-buttons pd-10 mb-10">
+          <li>
+            <a class="sb-li" href="/settings"
+              ><img
+                src="./assets/icons/settings.svg"
+                alt="settings"
+              />Settings</a
+            >
+          </li>
+          <li>
+            <a class="sb-li" href="/support"
+              ><img src="./assets/icons/support.svg" alt="support" />Support</a
+            >
+          </li>
+          <li>
+            <a class="sb-li" href="/privacy"
+              ><img src="./assets/icons/privacy.svg" alt="privacy" />Privacy</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="header pd-10">
+        <label for="search" class="header__cell-1 search-bar"
+          ><img src="./assets//icons/magnify.svg" alt="search" />
+          <input type="text" name="search" id="search" />
+        </label>
+
+        <ul class="header__cell-2">
+          <li>
+            <a href="/username"
+              ><img src="./assets/icons/bell-ring.svg" alt="notification"
+            /></a>
+          </li>
+          <li>
+            <a href="/username"
+              ><img src="./assets/icons/alien-outline.svg" alt="pp"
+            /></a>
+          </li>
+          <li>
+            <a href="/username">Ray Mckingney</a>
+          </li>
+        </ul>
+
+        <div class="header__cell-3">
+          <img src="./assets/icons/alien-outline.svg" alt="alien" />
+          <h4>
+            Hi there, <br />
+            Ray Mckigney(@hands)
+          </h4>
+        </div>
+        <div class="header__cell-4">
+          <button type="button">New</button>
+          <button type="button">Upload</button>
+          <button type="button">Share</button>
+        </div>
+      </section>
+      <section class="main-content">
+        <div>projets</div>
+        <div>announcements</div>
+        <div>trending</div>
+      </section>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: poppinsreg;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+
+body {
+  font-family: poppinsreg;
+}
+
+ul,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.dashboard {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr 3fr 3fr;
+  grid-template-rows: 1fr 3fr 3fr;
+}
+
+.sidebar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+}
+
+.header {
+  padding-top: 20px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-columns: 3fr auto;
+  grid-template-rows: auto auto;
+  background-color: #cbd5e1;
+  align-items: flex-start;
+  border: 1px solid;
+  box-shadow: 4px 1px 3px #0f172a;
+  z-index: 1;
+  justify-content: space-between;
+}
+
+.main-content {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: #cbd5e1;
+}
+
+.logo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #e2e8f0;
+}
+
+.sb-li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: #e2e8f0;
+}
+
+.top-sidebar-buttons {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 70%;
+  padding: 4px;
+  height: fit-content;
+}
+
+.search-bar img {
+  width: 20px;
+}
+
+#search {
+  border-radius: 4px;
+  width: 100%;
+  border-style: none;
+}
+
+.header__cell-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__cell-3 {
+  display: grid;
+  grid-template-columns: 30px 2fr;
+}
+
+.header__cell-4 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.header__cell-4 > button {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  color: #fff;
+  background-color: #0f172a;
+  font-family: poppinsreg, Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+}
