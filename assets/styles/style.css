@@ -63,6 +63,7 @@ a {
   box-shadow: 4px 1px 3px #0f172a;
   z-index: 1;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .main-content {
@@ -72,7 +73,7 @@ a {
   grid-row-end: 4;
   background-color: #cbd5e1;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr auto;
 }
 
 .logo {
@@ -129,7 +130,12 @@ a {
 
 .header__cell-3 {
   display: grid;
-  grid-template-columns: 30px 2fr;
+  grid-template-columns: 40px 2fr;
+  align-items: center;
+  gap: 5px;
+}
+.header__cell-3 img {
+  width: 40px;
 }
 
 .header__cell-4 {
@@ -169,6 +175,7 @@ a {
   border-radius: 5px;
   border-left: 5px solid #111827;
   background-color: #e2e8f0;
+  box-shadow: 4px 2px 3px #0f172aa6;
 }
 
 .card > h5 {
@@ -187,13 +194,43 @@ a {
   align-self: flex-end;
 }
 
-.main-content__cell-2 {
-  display: grid;
-  grid-template-columns: 1fr;
+.announcement_title > h6,
+.trends_title > h6 {
+  padding: 10px;
 }
 
-.main-content__cell-2 > div {
-  width: 200px;
-  height: 200px;
-  background: yellow;
+.announcements,
+.trends {
+  padding: 15px;
+  background-color: #e2e8f0;
+  width: 150px;
+  border-radius: 4px;
+  box-shadow: 4px 2px 3px #0f172aa6;
+}
+
+.announcement-card {
+  border-bottom: 1px solid #91959b;
+}
+
+.trends-card {
+  display: flex;
+  gap: 10px;
+}
+.announcement-card a {
+  font-size: 65%;
+  line-height: normal;
+}
+
+.trends-card a {
+  font-size: 70%;
+}
+
+.announcement-card p {
+  font-size: 9px;
+  margin-bottom: 5px;
+}
+
+.trends-card p {
+  font-size: 60%;
+  margin-bottom: 5px;
 }
