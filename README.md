@@ -38,7 +38,7 @@
     <a href="https://github.com/nottherealalanturing/nottherealalanturing"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/nottherealalanturing/nottherealalanturing">View Demo</a>
+    <a href="https://nottherealalanturing.github.io/Dashboard/">View Demo</a>
     ·
     <a href="https://github.com/nottherealalanturing/nottherealalanturing/issues">Report Bug</a>
     ·
@@ -76,7 +76,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://nottherealalanturing.github.io/Dashboard/)
 
 A clone of an admin dashboard.
 
@@ -181,4 +181,4 @@ Project Link: [https://github.com/nottherealalanturing/nottherealalanturing](htt
 [license-url]: https://github.com/nottherealalanturing/nottherealalanturing/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/assadisah
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: assets/screenshots/screenshot.png
