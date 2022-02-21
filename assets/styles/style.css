@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: poppinsreg;
+  font-family: poppinsreg, Arial, Helvetica, sans-serif;
   src: url("../fonts/Poppins-Medium.ttf");
 }
 
@@ -49,7 +49,6 @@ a {
 }
 
 .header {
-  padding-top: 20px;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -109,7 +108,6 @@ a {
   gap: 5px;
   width: 70%;
   padding: 4px;
-  height: fit-content;
 }
 
 .search-bar img {
@@ -216,6 +214,7 @@ a {
   display: flex;
   gap: 10px;
 }
+
 .announcement-card a {
   font-size: 65%;
   line-height: normal;
