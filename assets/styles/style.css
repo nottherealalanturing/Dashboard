@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 *,
 *::before,
 *::after {
@@ -6,13 +8,8 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: poppinsreg, Arial, Helvetica, sans-serif;
-  src: url("../fonts/Poppins-Medium.ttf");
-}
-
 body {
-  font-family: poppinsreg;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 ul,
@@ -132,6 +129,7 @@ a {
   align-items: center;
   gap: 5px;
 }
+
 .header__cell-3 img {
   width: 40px;
 }
@@ -145,7 +143,6 @@ a {
 
 .header__cell-4 > button {
   width: fit-content;
-  height: fit-content;
   padding: 10px;
   color: #fff;
   background-color: #0f172a;
