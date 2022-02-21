@@ -109,7 +109,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/nottherealalanturing/nottherealalanturing.git
+   git clone https://github.com/nottherealalanturing/dashboard.git
    ```
 2. Install NPM packages
    ```sh
@@ -119,7 +119,7 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-See the [open issues](https://github.com/nottherealalanturing/nottherealalanturing/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/nottherealalanturing/dashboard/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -154,7 +154,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Assad Isah - [@assadeesaa](https://twitter.com/assadeesaa) - nottherealalanturing@gmail.com.com
 
-Project Link: [https://github.com/nottherealalanturing/nottherealalanturing](https://github.com/nottherealalanturing/nottherealalanturing)
+Project Link: [https://github.com/nottherealalanturing/dashboard](https://github.com/nottherealalanturing/dashboard)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -169,16 +169,16 @@ Project Link: [https://github.com/nottherealalanturing/nottherealalanturing](htt
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/nottherealalanturing/nottherealalanturing.svg?style=for-the-badge
-[contributors-url]: https://github.com/nottherealalanturing/nottherealalanturing/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/nottherealalanturing/nottherealalanturing.svg?style=for-the-badge
-[forks-url]: https://github.com/nottherealalanturing/nottherealalanturing/network/members
-[stars-shield]: https://img.shields.io/github/stars/nottherealalanturing/nottherealalanturing.svg?style=for-the-badge
-[stars-url]: https://github.com/nottherealalanturing/nottherealalanturing/stargazers
-[issues-shield]: https://img.shields.io/github/issues/nottherealalanturing/nottherealalanturing.svg?style=for-the-badge
-[issues-url]: https://github.com/nottherealalanturing/nottherealalanturing/issues
-[license-shield]: https://img.shields.io/github/license/nottherealalanturing/nottherealalanturing.svg?style=for-the-badge
-[license-url]: https://github.com/nottherealalanturing/nottherealalanturing/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/nottherealalanturing/dashboard.svg?style=for-the-badge
+[contributors-url]: https://github.com/nottherealalanturing/dashboard/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/nottherealalanturing/dashboard.svg?style=for-the-badge
+[forks-url]: https://github.com/nottherealalanturing/dashboard/network/members
+[stars-shield]: https://img.shields.io/github/stars/nottherealalanturing/dashboard.svg?style=for-the-badge
+[stars-url]: https://github.com/nottherealalanturing/dashboard/stargazers
+[issues-shield]: https://img.shields.io/github/issues/nottherealalanturing/dashboard.svg?style=for-the-badge
+[issues-url]: https://github.com/nottherealalanturing/dashboard/issues
+[license-shield]: https://img.shields.io/github/license/nottherealalanturing/dashboard.svg?style=for-the-badge
+[license-url]: https://github.com/nottherealalanturing/dashboard/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/assadisah
-[product-screenshot]: assets/screenshots/screenshot.png
+[product-screenshot]: assets/screenshot/screenshots.png
